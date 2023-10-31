@@ -1,0 +1,55 @@
+export const INITIAL_OBJ_EXAMPLE = {
+  Version: "2.5",
+  EnableAutoCalculation: 0,
+  EnableAutoDestockAtRestart: 0,
+  EnableDefaultTraderStock: 0,
+  TraderCategories: [
+    {
+      CategoryName: "Vegetables",
+      Products: [
+        "CaninaBerry,1,-1,50,110,50",
+        "SambucusBerry,1,-1,50,110,50",
+        "Plum,1,-1,75,110,50",
+        "Kiwi,1,-1,75,110,50",
+        "Apple,1,-1,125,110,50",
+        "Pear,1,-1,150,110,50",
+        "Orange,1,-1,110,110,50",
+        "Banana,1,-1,100,110,50",
+        "Tomato,1,-1,100,110,50",
+        "Potato,1,-1,200,110,50",
+        "GreenBellPepper,1,-1,150,110,50",
+        "Zucchini,1,-1,200,130,50",
+        "Pumpkin,1,-1,2300,180,50",
+        "AgaricusMushroom,1,-1,150,120,50",
+        "AmanitaMushroom,1,-1,150,120,50",
+        "LactariusMushroom,1,-1,150,120,50",
+        "MacrolepiotaMushroom,1,-1,150,120,50",
+        "AuriculariaMushroom,1,-1,150,120,50",
+        "BoletusMushroom,1,-1,150,120,50",
+        "PleurotusMushroom,1,-1,150,120,50",
+      ],
+    },
+  ],
+};
+
+export const RESULT_EXAMPLE = {
+  m_Version: 12,
+  DisplayName: "Medications",
+  Icon: "Mushrooms",
+  Color: "FBFCFEFF",
+  IsExchange: 0,
+  InitStockPercent: 75.0,
+  Items: [
+    {
+      ClassName: "CharcoalTablets",
+      MaxPriceThreshold: 200,
+      MinPriceThreshold: 200,
+      SellPricePercent: -1.0,
+      MaxStockThreshold: 1,
+      MinStockThreshold: 1,
+      QuantityPercent: -1,
+      SpawnAttachments: [],
+      Variants: [],
+    },
+  ],
+};
