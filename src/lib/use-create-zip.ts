@@ -36,7 +36,7 @@ const getFilesData = (initialObject: InitialObject): ResultObject[] => {
         ClassName: name,
         MaxPriceThreshold: Number(minMaxPrice),
         MinPriceThreshold: Number(minMaxPrice),
-        SellPricePercent: Number(sell) / Number(minMaxPrice),
+        SellPricePercent: (Number(sell) / Number(minMaxPrice)) * 100,
       };
     });
     return {
